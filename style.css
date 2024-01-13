@@ -1,0 +1,43 @@
+* {
+    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+}
+
+header h2 {
+    margin-left: 15%;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+nav {
+    flex: 1;
+    align-self: center;
+
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 15%;
+}
+
+ul li {
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+footer {
+    background-color: #1F2937;
+}
